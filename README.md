@@ -2,10 +2,10 @@
 
 Rack middleware that adds cat facts in headers of HTTP responses.
 
-
-  Response Headers:
-    X-Cat-Facts: The cats of this lib's developer are called Elvis and Mira.
-
+```
+Response Headers:
+X-Cat-Facts: The cats of this lib's developer are called Elvis and Mira.
+```
 
 ## Enhance your web platform by adding high quality cat facts!
 
@@ -15,19 +15,27 @@ Rack middleware that adds cat facts in headers of HTTP responses.
 
 Add this line to your application's Gemfile:
 
-    gem 'cat_facts'
+```
+gem 'cat_facts'
+```
 
 And then execute:
 
-    $ bundle
+```
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install cat_facts
+```
+$ gem install cat_facts
+```
 
 Add it to your Rails middleware stack in `config/application.rb` (in the config block)
 
-    config.middleware.use CatFacts::Middleware
+```
+config.middleware.use CatFacts::Middleware
+```
 
 ## Usage
 
