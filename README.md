@@ -39,4 +39,4 @@ config.middleware.use CatFacts::Middleware
 
 ## Usage
 
-Just add a `catfact=1` parameter to any URL you want to retrieve an additional `X-Cat-Fact` header in the response, that will contain a random cat fact for your amusement.
+Any URL will have a `X-Cat-Fact` header in the response, that will contain a random cat fact for your amusement.
